@@ -1,0 +1,48 @@
+.order-card {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  max-width: 400px;
+
+  background-color: #ffffff;
+  color: #000000;
+}
+.order-card .button {
+  max-width: 150px;
+}
+.order-card__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.button_delete {
+  position: relative;
+  top: 5px;
+  left: calc((100% - 170px) / 2);
+  background-image: url('../../assets/remove-svgrepo-com.svg');
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  background-size: 100%;
+  background-color: inherit;
+  background-repeat: no-repeat;
+}
+.order-card__pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.order-card__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}
+.order-card__description {
+  overflow: hidden;
+  max-width: 300px;
+  text-overflow: ellipsis;
+}
