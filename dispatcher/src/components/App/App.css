@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app {
+  overflow: hidden;
+}
+.button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #fab439;
+}
+
+.button:active {
+  background-color: #fab439;
+  color: #ffffff;
+  opacity: 0.2;
+}
